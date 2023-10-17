@@ -5,7 +5,7 @@ export default function NavItem({
 }) {
   return (
     <li>
-      <a href="#" className="text-gray1 hover:text-my-green text-md uppercase font-medium">
+      <a href="#" className="text-nobel hover:text-yellow-green text-md uppercase font-medium">
         {children}
       </a>
     </li>
