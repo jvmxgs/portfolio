@@ -27,7 +27,7 @@ export default function Home () {
             </a>
           </section>
           <section className="md:w-1/3 flex items-center px-2 md:px-0">
-            <img src="me.png" alt="Victor Gomez" className="rounded-full w-full"/>
+            <img src="me.png" alt="Victor Gomez" className="rounded-full w-full" loading="lazy"/>
           </section>
           <section className="w-1/3 hidden md:flex justify-end items-center">
             <article className="rounded-md bg-dark-gray p-6 w-fit flex flex-col gap-4">
@@ -61,7 +61,7 @@ export default function Home () {
         </section>
         <section className='grid md:grid-col md:grid-cols-2 p-8 gap-6'>
           <div className='flex justify-center items-center'>
-            <img className='w-full' src="/ejam.png" alt="" />
+            <img className='w-full' src="ejam.png" alt="Responsive page" loading="lazy" />
           </div>
           <div className='flex flex-col'>
             <div className='w-full md:w-2/3 h-full self-start flex flex-col justify-center items-center md:items-start gap-3'>
@@ -86,12 +86,12 @@ export default function Home () {
             </div>
           </div>
           <div className='flex justify-center items-center'>
-            <img className='w-full' src="/project0.png" alt="" />
+            <img className='w-full' src="project0.png" alt="Creepy Bestiary & Horror Stories" loading="lazy" />
           </div>
         </section>
         <section className='grid md:grid-col md:grid-cols-2 p-8 gap-6'>
           <div className='flex justify-center items-center'>
-            <img className='w-full' src="/blog.png" alt="" />
+            <img className='w-full' src="blog.png" alt="My personal blog" loading="lazy" />
           </div>
           <div className='flex flex-col'>
             <div className='w-full md:w-2/3 h-full self-start flex flex-col justify-center items-center md:items-start gap-3'>
@@ -116,7 +116,7 @@ export default function Home () {
             </div>
           </div>
           <div className='flex justify-center items-center'>
-            <img className='w-full' src="/airbnb.png" alt="" />
+            <img className='w-full' src="airbnb.png" alt="airbnb project" loading="lazy" />
           </div>
         </section>
       </article>
