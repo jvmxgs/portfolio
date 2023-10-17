@@ -4,8 +4,8 @@ export default function Navbar () {
   return (
     <nav>
       <ul className='flex gap-4 py-2 justify-center'>
-        <NavItem>About me</NavItem>
-        <NavItem>Projects</NavItem>
+        <NavItem url='#projects'>Projects</NavItem>
+        <NavItem url='#experience'>Experience</NavItem>
       </ul>
     </nav>
   )

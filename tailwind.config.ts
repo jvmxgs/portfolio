@@ -19,8 +19,8 @@ const config: Config = {
         'dark-gray': '#070707',
         'seal-brown': '#131313',
         'dim-gray': '#656565',
-        cinder: '#222629',
-        tuna: '#474b4f',
+        cinder: '#1f1f1f',
+        tuna: '#393939',
         'mid-grey': '#6b6e70'
       }
     },

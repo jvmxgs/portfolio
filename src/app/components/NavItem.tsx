@@ -1,11 +1,13 @@
 export default function NavItem({
-  children
+  children,
+  url
 }: {
   children: string
+  url: string
 }) {
   return (
     <li>
-      <a href="#" className="text-nobel hover:text-yellow-green text-md uppercase font-medium">
+      <a href={url} className="text-nobel hover:text-yellow-green text-md uppercase font-medium">
         {children}
       </a>
     </li>
