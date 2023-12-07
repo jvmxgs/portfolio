@@ -22,7 +22,7 @@ export default function Home () {
             <p className="text-nobel my-2">
               Proficient writing web applications. Based in Mexico
             </p>
-            <a href='/cv-victor-gomez.pdf' className='text-white text-sm capitalize flex items-center'>
+            <a href='https://drive.google.com/file/d/1aO7XgSjMqTVn1zT8x7TwTbduGjROTVth/view?usp=sharing' className='text-white text-sm capitalize flex items-center'>
               Download resume <IoIosArrowForward className='text-yellow-green' />
             </a>
           </section>
